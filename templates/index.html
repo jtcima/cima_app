@@ -1,0 +1,16 @@
+{%extends "base.html"%}
+
+{% block content %}
+
+<div>
+    <h1 class="fade">Hi there</h1>
+    {% if current_user.is_anonymous %}
+    
+    <a href="{{ url_for('log_in') }}" class="fade-in">Welcome</a>
+    
+    {% else %}
+    <a href="{{ url_for('logout') }}" class="index_logout">Logout</a>
+    {% endif %}  
+</div>
+    
+{% endblock %}

@@ -1,0 +1,18 @@
+{%extends "base.html"%}
+
+{% block content %}
+
+<div>
+    <h1 class='logout'> See You :)</h1>
+   <!-- <script>
+        setTimeout(function(){
+            window.location.href = "{{url_for('index')}}";
+        }, 2000)
+    </script> -->
+    <br>
+    <br>
+    <a href="{{ url_for('log_in') }}" class="relogin">Log in AGAIN!</a>
+
+</div>
+
+{% endblock %}

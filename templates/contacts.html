@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="height=device-height, initial-scale=1.0">
+    <title>JTCIMA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class='contact_form'>
+<div class='_contact'>
+    <h1 class='contact_head'>Please Leave Your Contact Details and Enquires Below</h1>
+    
+    <form action="/home/contacts" method="POST" id='contactform'>
+        {{form.hidden_tag()}}
+        <p>
+            {{form.name.label(class_='contact_name')}} 
+            <br>
+            {{form.name(maxlength=50, class_='_name')}}<br>
+            {% for error in form.name.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        
+        <p>
+            {{form.email.label(class_='contact_email')}}
+            <br>
+            {{form.email(maxlength=50, class_='_email')}}<br>    
+            {% if form.email.errors %}
+            <span style="color: red;">[Invalid email address]</span>
+            {% endif %}
+        </p>
+        
+        <p>
+            {{form.phone.label(class_='contact_phone')}}
+            <br>
+            {{form.phone(maxlength=20,class_='_phone')}}<br>
+            {% if form.phone.errors %}
+            <span style="color: red;">[Invalid phone number]</span>
+            {% endif %}
+        </p>
+        
+        <p>
+            {{form.enquires.label(class_='contact_enquires')}}
+            <br>
+            {{form.enquires(class_='_enquires')}}<br>
+            {% for error in form.enquires.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <br>
+        <p>
+            {{form.submit(class_='contact_submit')}}
+        </p>
+    </form>
+</div>
+</body>
+</html>

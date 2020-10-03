@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="height=device-height, initial-scale=1.0">
+    <title>JTCIMA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="after_message">
+        <p>{% for message in get_flashed_messages() %}
+            <span style="color:red;font-size: 3vw;font-weight: bold;">{{message}}</span>
+            {%endfor%}
+        </p>
+    </div>
+    <div class="_after">
+        <a href="{{ url_for('home') }}" class="backtochat">Back to chat with Cima</a>
+        <br>
+        <br>
+        <br>
+        <a href="{{ url_for('logout') }}" class="donechatting">Nah, I'm done chatting!</a>
+    </div>
+</body>
+</html>
