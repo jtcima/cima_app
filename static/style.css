@@ -8,7 +8,10 @@ body{
 
 div{
   text-align: center;
-  margin-top: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
 a{
@@ -137,8 +140,10 @@ h1{
 
 .login_form{
   text-align: center;
-  margin-top: 15%;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .user{
@@ -515,4 +520,99 @@ h1{
   zoom: 1.0;
 }
 
+@media screen and (max-width: 448px){
+  a{
+      font-size:12vw;
+    }
 
+  h1{
+      font-size:9vw;
+    }
+
+  .user{
+      width: 150px;
+      height: 30px;
+      font-size: 4vw;
+    }
+    
+  .password{
+      width: 150px;
+      height:30px;
+      font-size:4vw;
+    }
+    
+  .remember{
+      width:10px;
+      height:10px;
+    }
+    
+  .submit{
+      width:70px;
+      height:30px;
+      font-size: 4vw;
+    }
+
+  .label_user{
+      font-size: 5vw;
+    }
+    
+  .label_password{
+      font-size: 5vw;
+    }
+    
+  .label_remember{
+      font-size: 3vw;
+      font-weight: bolder;
+    }
+    
+  ._url{
+      font-size: 4.5vw;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) and (min-width: 448px){
+  a{
+    font-size:50px;
+  }
+
+  h1{
+    font-size:40px;
+  }
+  
+  .submit{
+    width:75px;
+    height:35px;
+    font-size: 18px;
+  }
+
+  .user{
+    font-size: 20px;
+  }
+  
+.password{
+    font-size:20px;
+  }
+  
+.remember{
+    width:10px;
+    height:10px;
+  }
+  
+.label_user{
+    font-size: 25px;
+  }
+  
+.label_password{
+    font-size: 25px;
+  }
+  
+.label_remember{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  
+._url{
+    font-size: 25px;
+  }
+}
