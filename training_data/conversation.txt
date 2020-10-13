@@ -29,29 +29,29 @@ I feel fantastic:)
 I'm fine, how about yourself?
 I feel fantastic:)
 bye
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 goodbye
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 good bye
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 see you
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 see you later
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 see you around
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 seeya
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 byebye
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 cya
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 c ya
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 exit
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 quit
-Good chat! click <a href="logout">here</a> to logout.
+Good chat! click <a href="logout" class="link">here</a> to logout.
 thank you
 You are welcome:)
 thanks

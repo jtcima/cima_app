@@ -13,16 +13,17 @@
             {{ form.username.label(class_='label_user') }}<br>
             {{ form.username(maxlength=50, class_='user') }}<br>
         </p>
-        <br>
+        
         <p>
             {{ form.password.label(class_='label_password') }}<br>
             {{ form.password(maxlength=50, class_='password') }}<br>
         </p>
         <p>{{ form.remember_me(class_='remember') }} {{ form.remember_me.label(class_='label_remember') }}</p>
+    
         <p id="login_effect">{{ form.submit(class_='submit') }}</p>
     </form>
     <br>
-   <a href="{{ url_for('register') }}" class="_url">New?Click to Join!</a>
+    <a href="{{ url_for('register') }}" class="_url">New?Click to Join!</a>
 </div>
 
 {% endblock %}

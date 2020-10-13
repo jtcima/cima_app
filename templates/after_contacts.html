@@ -8,13 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
-<body>
+<body class="after_contacts">
     <div class="after_message">
         <p>{% for message in get_flashed_messages() %}
             <span style="color:red;font-size: 3vw;font-weight: bold;">{{message}}</span>
             {%endfor%}
         </p>
     </div>
+    <br>
+    <br>
     <div class="_after">
         <a href="{{ url_for('home') }}" class="backtochat">Back to chat with Cima</a>
         <br>
