@@ -576,13 +576,13 @@ a{
     }
 
   .user{
-      width: 20vw;
+      width: 22vw;
       height: 2.5vw;
       font-size: 2vw;
     }
     
   .password{
-      width: 20vw;
+      width: 22vw;
       height:2.5vw;
       font-size:2vw;
     }
@@ -595,7 +595,7 @@ a{
   .submit{
       width:10vw;
       height:4vw;
-      font-size: 2vw;
+      font-size: 1.5vw;
     }
 
   .label_user{
@@ -615,4 +615,122 @@ a{
       font-size: 2.5vw;
     }
     
+  #userInput{
+      text-align: center;
+      margin-top: 50%;
+    }
+    
+  #textInput {
+      width: 30vw;
+      height: 3vw;
+      font-size: 2vw;
+    }
+    
+  #buttonInput{
+      width: 8vw;
+      height: 2.5vw;
+      font-size: 1.0vw;
+    }
+
+  .contact_name{
+      font-size: 3vw;
+    }
+    
+  ._name{
+      font-size: 2.5vw;
+    }
+    
+  .contact_email{
+      font-size: 3vw;
+    }
+    
+  ._email{
+      font-size: 2.5vw;
+    }
+    
+  .contact_phone{
+      font-size: 3vw;
+    }
+    
+  ._phone{
+      font-size: 2.5vw;
+    }
+    
+  .contact_enquires{
+      font-size: 3vw;
+    }
+    
+  ._enquires{
+      font-size: 2.5vw;
+    }
+
+  .contact_submit{
+      font-size: 2.5vw;
+    }
+  
+  .contact_head{
+      font-size: 4vw;
+    }
+
+  .backtochat{
+      font-size:2.5vw;
+    }
+
+  .donechatting{
+      font-size: 2.5vw;
+    }
+
+  .relogin{
+      font-size: 2.5vw;
+    }
+
+  .register{
+      font-size: 3.5vw
+    }
+    
+  .reg_name{
+      font-size: 2.5vw;
+    }
+    
+  ._reg_name{
+      width: 24vw;
+      height: 3vw;
+      font-size: 2vw;
+    }
+    
+  .reg_email{
+      font-size: 2.5vw;
+    }
+    
+  ._reg_email{
+      width: 24vw;
+      height: 3vw;
+      font-size: 2vw;
+    }
+    
+  .reg_pword{
+      font-size: 2.5vw;
+    }
+    
+  ._reg_pword{
+      width: 24vw;
+      height: 3vw;
+      font-size: 2vw;
+    }
+    
+  .reg_pword2{
+      font-size: 2.5vw;
+    }
+    
+  ._reg_pword2{
+      width: 24vw;
+      height: 3vw;
+      font-size: 2vw;
+    }
+  
+  .reg_submit{
+      width:12vw;
+      height:4vw;
+      font-size: 1.5vw;
+    }
 }
